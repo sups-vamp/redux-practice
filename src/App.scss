@@ -1,0 +1,38 @@
+.main-container {
+  text-align: center;
+}
+
+.heading {
+  font-size: xx-large;
+  margin-top: 1rem;
+}
+.names {
+  display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.add-btn, .delete-btn {
+  padding: 0.5rem;
+    color: white;
+    background: cornflowerblue;
+    border: none;
+    border-radius: 5px;
+}
+
+.delete-btn {
+  background: lightcoral;
+}
+
+.add-btn:hover, .delete-btn:hover {
+  cursor: pointer;
+  box-shadow: 3px 3px 3px 3px lightgrey;
+}
+
+.btns {
+  width: 50%;
+    margin-left: 25%;
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 1rem;
+}

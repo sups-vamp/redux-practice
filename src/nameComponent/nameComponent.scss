@@ -1,0 +1,24 @@
+.flex {
+    display: flex;
+    width: 50%;
+    justify-content: space-between;
+    padding: 2rem;
+    background: aliceblue;
+    color: gray;
+    align-items: center;
+    border-radius: 1rem;
+    margin-top: 1rem;
+}
+
+.btn {
+    border: none;
+    background: transparent;
+    cursor: pointer;
+    font-size: larger;
+}
+
+.btn:hover {
+    cursor: pointer;
+  box-shadow: 3px 3px 3px 3px lightgrey;
+  border-radius: 5px;
+}
